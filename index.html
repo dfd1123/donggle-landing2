@@ -1,6 +1,45 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
 <head>
+
+	    <!-- Facebook Pixel Code -->
+			<script>
+				!(function (f, b, e, v, n, t, s) {
+					if (f.fbq) return;
+					n = f.fbq = function () {
+						n.callMethod
+							? n.callMethod.apply(n, arguments)
+							: n.queue.push(arguments);
+					};
+					if (!f._fbq) f._fbq = n;
+					n.push = n;
+					n.loaded = !0;
+					n.version = "2.0";
+					n.queue = [];
+					t = b.createElement(e);
+					t.async = !0;
+					t.src = v;
+					s = b.getElementsByTagName(e)[0];
+					s.parentNode.insertBefore(t, s);
+				})(
+					window,
+					document,
+					"script",
+					"https://connect.facebook.net/en_US/fbevents.js"
+				);
+				fbq("init", "259151521911286");
+				fbq('set', 'mobileBridge', '219539359099661', '3373848672641854');
+				fbq("track", "PageView");
+			</script>
+			<noscript
+				><img
+					height="1"
+					width="1"
+					style="display: none;"
+					src="https://www.facebook.com/tr?id=259151521911286&ev=PageView&noscript=1"
+			/></noscript>
+			<!-- End Facebook Pixel Code -->
+			
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
